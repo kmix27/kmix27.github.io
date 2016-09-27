@@ -2,7 +2,7 @@
 layout: post
 title:  "Week 1 at Metis... In the bag!"
 date:   2016-09-26 17:06:25
-categories: jekyll update
+categories: Metis
 ---
 
 ### Metis clock T+ 79.78 hours ###
