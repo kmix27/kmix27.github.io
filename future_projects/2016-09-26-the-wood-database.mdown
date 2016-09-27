@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "Wood Database"
+date:   2016-09-26 17:06:25
+categories: Future projects
+---
+
+[The wood database][wdb] isn't a database.
+
+There I said it. 
+
+I'm a hobbyist wood worker.  Something I got from my father.  I've been following him around in the 'shop' more or less since I could walk.  I love making tangible objects that serve a purpose,  and I'm a total geek when it comes to rare (and often expensive) hardwoods.  
+
+Now don't get me wrong.  I'm in awe of what has been put together by the fine authors of that site, but I know databases, and while I imagine they run it on a database, it's a website.  
+
+I get it.  If I were a betting man,  I'd put a pretty good chunk down on most woodworkers having no idea what SQL is, and being perfectly content with that.  But I do.  I want to be able to slice and dice through all it's janka hardness rating goodness in a format that I understand.
+
+So,  here is my plan:
+
+I shall scrape the 'database' and convert it into an actual database,  with SELECT clauses, and blackjack.  Heck maybe if I'm feeling ambitious enough I'll improve upon it, in a way that hands the power I desire to the average user.  
+
+No more scrolling.  I want to explicitely say what tangential shrinkage rate is acceptable to me and make my selections from there.  I'm coming for you wood database.
+
+[wdb][http://www.wood-database.com/]
+
+
