@@ -5,7 +5,7 @@ date:   2016-09-26 17:06:25
 categories: jekyll update
 ---
 
-### Metis clock = 79.78 hours ###
+### Metis clock T+ 79.78 hours ###
 
 What a week.  I was excited walking into this, but I can confidently say that has only increased.  As a relatively new blogger,  it's not really a format that I'm entierly comftorble with yet, however part of the reaseon I started this whole adventure was to shake up my comfort zone,  so why not here too!
 
@@ -20,13 +20,26 @@ The projects data set was turnstile data from the MTA of New York,  and it was a
 + Visualization - Hand in hand with communication
 + Brainstorming, and the decision making process within a group.
 + Delegation
-+ Presentation of something useful in such a way to not put your audience to sleep
++ Presentation of something useful in such a way as to not put your audience to sleep
+
+I learned a lot in this project.  My group imagined the problem from the perspective of a company looking to optimize how street performers distributed themselves around New Yorks Busiest subway stations in an effort to maximize variety for the public and tips for the performers.
+
+It was completely hypothetical,  and I'd be lying if I told you the premis wasn't picked because it was a little absurd, but I'm of the opinion that work should be fun, if it isn't, you're doing it wrong. So, given that philosophy, and the opportunity, I made it that way.  
+
+The bulk of the effort that I put in was devoted to developing an algorithm to simulate our hypothetical goal.  We wanted to be able to first establish how many artists should be placed at any one station on any given day based on the traffic density of that station.  Once that quantity was known for a 7 day period, we assigned the artists at random into those slots, and then for each artist recorded the relative number of 'impressions' (passers by) that could be expected given their assignment.  The initial feature set included separating by type of performer so there wasn't an overabundance of one type at any one station.  Unfortunately this proved to be a little too ambitious given the rapid turnaround on this project.  
+
+We defined a successful model as one that showed an end impressions distribution that was steeply peaked, indicating that most performers received about the same number of impressions.  The simulation was ran for 1 week, 1 month, and 1 year to see how it improved over time.  We were ultimately successful in acheiving this goal. 
+
+Some aspects that I would change/ improve upon given more time:
+
++ optimization of the selection process
+>The selection process didn't look at how many impressions the artist had already received.  It was purely random,  and the performance slot allotment was the driving factor in how the impressions were spread out amongst artists.  A future iteration would look at the performers historical impression count and weight them as more or less likely to receive one of the prime spots based on that.  I expect that would significantly decrease the necessary simulation period to acheive the desired results.
++ segmentation of artists
+>We created a dummy dataset of artists for the purpose of this exercise, and gave them all types and subtypes.  The initial goal was to separate them based on those sub types, so that say Grand Central Station wasn't full of 6 guitarists. This could be acheived by dropping, and re- assigning any duplicates.  This wouldn't necessarily improve the model,  but it would improve the use case of the model.  
++ cleaner code
+>I think this is something we can all strive for,  but when you need something that works and it's 3AM  the day before you submit,  if it runs,  it runs.  Performant code is critical though, and I know that this is something I'll only learn through doing.
+
+All in all it was a fantastic first week.  I'm thrilled to have the opportunity to be doing something so fascinating with such interesting, intelligent, and friendly people.  
 
 
-
-
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
-
-[jekyll-gh]: https://github.com/mojombo/jekyll
-[jekyll]:    http://jekyllrb.com
 [pfda]: http://shop.oreilly.com/product/0636920023784.do
