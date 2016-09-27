@@ -8,3 +8,8 @@ Gemfile
 Gemfile.lock
 node_modules
 package.json
+
+# Working Files - not ready to be shared
+local/
+local*
+*local*
