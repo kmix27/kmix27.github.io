@@ -1,11 +1,9 @@
 ---
 layout: post
-title:  "Week 1 at Metis... In the bag!"
+title:  Metis clock T+ 79.78 hours
 date:   2016-09-26 17:06:25
 categories: Metis
 ---
-
-### Metis clock T+ 79.78 hours ###
 
 What a week.  I was excited walking into this, but I can confidently say that has only increased.  As a relatively new blogger,  it's not really a format that I'm entierly comftorble with yet, however part of the reaseon I started this whole adventure was to shake up my comfort zone,  so why not here too!
 
