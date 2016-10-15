@@ -93,8 +93,8 @@ That's just a start.  The wonderful thing about data science is there really is 
 
 
 [ant]: http://www.imdb.com/name/nm7153169/?ref_=fn_al_nm_3
-[brian]:[http://www.imdb.com/name/nm1014073/]
-[G]:[https://en.wikipedia.org/wiki/Gigli]
-[tmdb]:[https://www.themoviedb.org/]
-[tml]:[http://grouplens.org/datasets/movielens/]
-[bom]:[http://www.boxofficemojo.com/]
+[brian]:http://www.imdb.com/name/nm1014073/
+[G]:https://en.wikipedia.org/wiki/Gigli
+[tmdb]:https://www.themoviedb.org/
+[tml]:http://grouplens.org/datasets/movielens/
+[bom]:http://www.boxofficemojo.com/
