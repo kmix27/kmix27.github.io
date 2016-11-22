@@ -3,4 +3,4 @@ layout: default
 title: Resume
 ---
 
-<iframe width="800" height="1035"  src="https://resume.creddle.io/embed/gojvtz91vsx" seamless></iframe>
+<iframe width="850" height="1100"  src="https://resume.creddle.io/embed/gojvtz91vsx" </iframe>
