@@ -4,7 +4,7 @@ title:  How predictable... Diving into OKCupid data
 date:   2016-10-26 17:06:25
 categories: Metis
 ---
-### Dating Data: Who are you?
+**Dating Data: Who are you?**
 
 
 **Dating sites** are now ubiquitous.  weather you think that's a [good thing](http://www.nytimes.com/roomfordebate/2016/02/12/has-love-grown-as-dating-apps-flourish/diverse-platforms-cater-to-different-needs) or a [bad thing](http://www.nytimes.com/roomfordebate/2016/02/12/has-love-grown-as-dating-apps-flourish/dating-apps-dont-work-for-me) is up to you.  The fact of the matter is, online dating has seen a [significant increase](http://www.pnas.org/content/110/25/10135.full.pdf) in popularity over the last decade, and resulted in an industry worth over [$2 Billion.](http://www.thefiscaltimes.com/Articles/2014/02/14/Valentines-Day-2014-How-Online-Dating-Became-2-Billion-Industry)  One thing that's difficult to refute is dating apps create a whole lot of [interesting data](https://blog.okcupid.com/).  Which is why when faced with the challenge of building out a project using classification algorithms, what better place to peek under the hood of the human condition than a bunch of people looking for love... or something like that.  
