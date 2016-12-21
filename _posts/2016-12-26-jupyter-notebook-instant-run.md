@@ -35,7 +35,8 @@ on run {input, parameters}
 		activate
 		do script with command "cd ~ && jupyter notebook"
 	end tell
-	end run```   
+	end run
+	```   
 	
 6. Hit run to test everything is working,  you should get a new terminal window open to whichever directory you chose to run Jupyter from, a new browser window will open, and Jupyter will spin up.  If everything works, save to your applications and you're done.  
 
