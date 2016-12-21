@@ -5,7 +5,6 @@ date:   2016-12-21 15:27:25
 categories: Metis
 ---
 
-###Jupyter notebook instant run
 
 I use [Jupyter notebook](http://jupyter.org/) almost exclusively in my exploration phase.  It's only when I get to the point of needing to refactor into modules or run web applications that I move over to Sublime text.  If you work with python, or any other of the rapidly expanding list of [supported languages](https://github.com/ipython/ipython/wiki/IPython-kernels-for-other-languages), I suggest you do the same. 
 
@@ -37,7 +36,9 @@ on run {input, parameters}
 		do script with command "cd ~ && jupyter notebook"
 	end tell
 end run
-``` 6. Hit run to test everything is working,  you should get a new terminal window open to whichever directory you chose to run Jupyter from, a new browser window will open, and Jupyter will spin up.  If everything works, save to your applications and you're done.  
+``` 
+
+6. Hit run to test everything is working,  you should get a new terminal window open to whichever directory you chose to run Jupyter from, a new browser window will open, and Jupyter will spin up.  If everything works, save to your applications and you're done.  
 
 I went a little further and changed the icon so I don't confuse with automator.  To do this, right click your application > Get Info > drag your desired .icns file to the top left.
 
