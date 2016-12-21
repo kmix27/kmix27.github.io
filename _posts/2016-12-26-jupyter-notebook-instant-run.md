@@ -8,7 +8,7 @@ categories: Metis
 
 I use [Jupyter notebook](http://jupyter.org/) almost exclusively in my exploration phase.  It's only when I get to the point of needing to refactor into modules or run web applications that I move over to Sublime text.  If you work with python, or any other of the rapidly expanding list of [supported languages](https://github.com/ipython/ipython/wiki/IPython-kernels-for-other-languages), I suggest you do the same. 
 
-**The benefits are tremendous.  **
+**The benefits are tremendous.**
 
 I'm also a nut for efficiency and always jump at the prospect of **eliminating** repetitive tasks.  With that in mind,  I got tired of opening terminal, making sure I was in the correct directory (I like to initialize Jupyter in my root directory), then making sure I had a fresh window in Chrome, and finally running Jupyter.  
  
