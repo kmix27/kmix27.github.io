@@ -22,9 +22,9 @@ Follow this quick guide to package all this into an appleScript based automator 
 3. Select "Application" when prompted for the document type.
 
 4. In the actions bar select Utilities > Run AppleScript and drag into the input panel.
-5. From there, you'll want to add the following script.  It's very basic, and very easy to customize,  so have at it.
+5. From there, you'll want to add the following script.  It's very basic, and very easy to customize,  so have at it.  
 
-```applescript
+	```applescript
 	on run {input, parameters}
 		tell application "Google Chrome"
 			tell (make new window)
@@ -35,8 +35,8 @@ Follow this quick guide to package all this into an appleScript based automator 
 			activate
 			do script with command "cd ~ && jupyter notebook"
 		end tell
-	end run
-```
+		end run
+	```
 6. Hit run to test everything is working,  you should get a new terminal window open to whichever directory you chose to run Jupyter from, a new browser window will open, and Jupyter will spin up.  If everything works, save to your applications and you're done.  
 
 I went a little further and changed the icon so I don't confuse with automator.  To do this, right click your application > Get Info > drag your desired .icns file to the top left.
