@@ -24,7 +24,7 @@ Follow this quick guide to package all this into an appleScript based automator 
 4. In the actions bar select Utilities > Run AppleScript and drag into the input panel.
 5. From there, you'll want to add the following script.  It's very basic, and very easy to customize,  so have at it.  
 
-Code.block('applescript'.
+Code.block('applescript',
 on run {input, parameters}
 	tell application "Google Chrome"
 		tell (make new window)
