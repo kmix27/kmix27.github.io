@@ -37,6 +37,7 @@ tell application "Terminal"
 end tell
 end run
 ```
+
 6. Hit run to test everything is working,  you should get a new terminal window open to whichever directory you chose to run Jupyter from, a new browser window will open, and Jupyter will spin up.  If everything works, save to your applications and you're done.  
 
 I went a little further and changed the icon so I don't confuse with automator.  To do this, right click your application > Get Info > drag your desired .icns file to the top left.
