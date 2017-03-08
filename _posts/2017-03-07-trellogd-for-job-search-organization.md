@@ -17,7 +17,7 @@ I came up with [**trellogd**](https://github.com/kmix27/trello_glassdoor).
 
 I released the tool in a very basic form last week, and today I got around to getting it up on [PyPi](https://pypi.python.org/pypi/trellogd/0.1) so that anyone who wants to use Trello for their job search has an easy tool to accomplish that.  
 
-The build was pretty straightforward.  Nothing too crazy.  It was a great opportunity to learn more about git/Github, setuptools, and of course argparse.  I found that building command line tools is fun and can be tremendously handy.  Right now the scope of what this tool is capable of is rather limited, see the [README](https://github.com/kmix27/trello_glassdoor/blob/master/README.md) for more details on usage, but I have a list of stuff I'd like to add:  
+The build was pretty straightforward.  Nothing too crazy.  It was a great opportunity to learn more about git/Github, setuptools, web-scraping, API's, and of course argparse.  I found that building command line tools is fun and can be tremendously handy.  Right now the scope of what this tool is capable of is rather limited, see the [README](https://github.com/kmix27/trello_glassdoor/blob/master/README.md) for more details on usage, but I have a list of stuff I'd like to add:  
 
 * Expand the functionality to work with alternate listings on glass door  
 * Add additional job listing sites
