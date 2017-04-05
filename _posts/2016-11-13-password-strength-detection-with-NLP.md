@@ -63,3 +63,6 @@ Here is a diagram for how data flows through my system:
 
 ### Conclusions:
 I'm quite pleased with the results I'm able to achieve with this tool.  I've never seen an NLP approach to building stronger passwords, and for a week and a half's worth of work, the product I made shows good viability.  I'm fascinated by this space, and the challenges surrounding nailing good balance on that thin line between security and ease of use.  Password related metrics are underutilized in the fraud detection space in my opinion, and I believe this goes a long way in building a good solution to maintain both security and signal.  There's still work to be done, but I'm very pleased with the results.  
+
+
+**Update 03.28.17**: I've added to and refactored this project, most important addition is a method for extracting secure features from a password prior to encryption for fraud analysis.  Take a look at the [project repository](https://github.com/kmix27/LsiPasswordStrength) for more.
