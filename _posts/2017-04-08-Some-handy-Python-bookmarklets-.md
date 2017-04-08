@@ -15,7 +15,7 @@ Bookmarklets are little snippets of javascript that you save as a bookmark in yo
 
 #### How do I use them?  
 Very easy.  You right click on your bookmark bar within your browser and select "Add Page..."  you will get this menu:  
-![](/images/bmarkletmenu.png)
+![](/images/menu.png)
 From there you'll give it a name, paste the code snippet in the URL field exactly as it appears here, and select where you'd like it to live within your bookmarks.  I prefer the bookmarks bar for the stuff I use the most.  After that it's just a matter of clicking on it.  Most of these are giving you instant access to search functionality on various sites, and generally they'll give you a popup input field, and then open a new tab for the site with your input as a search term.  
 
 
