@@ -9,11 +9,11 @@ categories: Python
 
 ## Helpful additions to your browser!  
 
-#### What are they?
+### What are they?
 
 Bookmarklets are little snippets of javascript that you save as a bookmark in your browser.  They can do all kinds of useful things, and add rich customized functionality for tasks that you do regularly or repeatedly.  I've developed a few that you may find helpful.
 
-#### How do I use them?  
+### How do I use them?  
 Very easy.  You right click on your bookmark bar within your browser and select "Add Page..."  you will get this menu:  
 ![](/images/menu.png)
 From there you'll give it a name, paste the code snippet in the URL field exactly as it appears here, and select where you'd like it to live within your bookmarks.  I prefer the bookmarks bar for the stuff I use the most.  After that it's just a matter of clicking on it.  Most of these are giving you instant access to search functionality on various sites, and generally they'll give you a popup input field, and then open a new tab for the site with your input as a search term.  
@@ -58,7 +58,7 @@ import seaborn as sns
 %matplotlib inline  
 pd.set_option('display.max_columns',75)
 ```  
-Well stop that.  With this one click copies a predefined chunk of text to your clipbaord.  You can then plug it straight into the top of your script and minimize your import time.  
+Well stop that.  With this one click copies a predefined chunk of text to your clipbaord.  You can then paste it straight into the top of your script and minimize unnecessary or repetative typing.  
 
 This snippet will give you the above text to your clipboard.  
 
@@ -66,7 +66,7 @@ This snippet will give you the above text to your clipboard.
 javascript:!function(a){var b=document.createElement("textarea"),c=document.getSelection();b.textContent=a,document.body.appendChild(b),c.removeAllRanges(),b.select(),document.execCommand("copy"),c.removeAllRanges(),document.body.removeChild(b)}("import pandas as pd \nimport numpy as np \nimport matplotlib.pyplot as plt \nimport seaborn as sns \n%matplotlib inline\npd.set_option('display.max_columns',75)");
 ```  
 
-Additionally you can put whatever you want in there by editing the snippet.  Replace the string in the last set of parens with a string of your chosing.  You'll need to explicitely type linebreaks with "\n".  
+You can put whatever text you want in there by editing the snippet. @autor string, setting options, whatever you want.  Replace the string in the last set of parens with a string of your chosing.  You'll need to explicitely type linebreaks with "\n".  
 
 That's just a tiny taste of what you can do with bookmarklets.  The possibilites for customization are endless, allowing for some pretty neat stuff to happen with just a click.  I hope you find some of these useful!  
 
