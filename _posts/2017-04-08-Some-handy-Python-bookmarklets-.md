@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  Some handy Python bookmarklets
-date:   2017-04-08 16:18:25
-categories: Python
+title:  I built trellogd for your job search
+date:   2017-04-08 16:01:25
+categories: Python bookmarklets
 ---
 
 ![](/images/bookmarklets.jpg)  
