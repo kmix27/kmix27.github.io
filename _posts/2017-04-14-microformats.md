@@ -6,7 +6,7 @@ categories: webscraping python
 ---
 
 # Microformats  
----  
+
 **What are they?**  
 Microformats are a set of standard approaches to HTML/XHTML markup which allows data inteded for an end user on a browser to be easily accessed by a machine.  Think universal API for certain types of data baked into a websites markup.  You probably use them everyday without even realizing it.  For example [hCard](https://en.wikipedia.org/wiki/HCard) is a microformat for representing contact information.  It shares the exact same formatting as vCard which is a standard used nearly everywhere contact information is utalized. 
 
